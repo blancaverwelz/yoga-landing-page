@@ -936,7 +936,7 @@ h2 {
         padding: 0;
     }
     .secondRightChild {
-        margin-top: 15px;
+        padding-top: 15px;
         width: 100%;
         float: right;
     }
