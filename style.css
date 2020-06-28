@@ -782,8 +782,10 @@ h2 {
     .navBar {
         display: block;
     }
-    body {
+    html,body {
         overflow-x: hidden;
+        position: relative;
+        width: 100%;
     }
     footer {
         position: relative;
@@ -798,8 +800,8 @@ h2 {
         margin: 5px 0;
     }
     .modal {
-        top: 40%;
-        left: 40%;
+        top: 30%;
+        left: 50%;
         width: 450px;
     }
 }
@@ -1058,8 +1060,6 @@ h2 {
         left: 37%;
     }
     .modal {
-        top: 40%;
-        left: 38.5%;
         width: 400px;
     }
 }
@@ -1088,8 +1088,6 @@ h2 {
         left: 34%;
     }
     .modal {
-        top: 40%;
-        left: 38.5%;
         width: 300px;
     }
     .modal-header .title {
@@ -1121,10 +1119,6 @@ h2 {
         width: auto;
         left: 33%;
     }
-    .modal {
-        left: 38.80%;
-        width: 300px;
-    }   
 }
 
 @media screen and (max-width: 320px) {
@@ -1148,10 +1142,6 @@ h2 {
         width: auto;
         left: 30%;
     }
-    .modal {
-        top: 40%;
-        left: 38.5%;
-    } 
 }
 /* Animation */
 .navMenu-active {
